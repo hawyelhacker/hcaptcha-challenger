@@ -30,7 +30,7 @@ jobs:
         env:
           SENTINEL_PER_TIMES: 12
           SITEKEY_DISCORD: f5561ba9-8f1e-40ca-9b5b-a0b3f719ef34
-          SITEKEY_EPIC: 91e4137f-95af-4bc9-97af-cdcedce21c8c
+          SITEKEY_EPIC: 9e30723b-72c6-4928-96a1-9d26ae5ed6bd
           SITEKEY_USER_EASY: c86d730b-300a-444c-a8c5-5312e7a93628
         continue-on-error: true
         timeout-minutes: 10
@@ -39,7 +39,7 @@ jobs:
       - name: Startup collector
         env:
           COLLECTOR_PER_TIMES: 20
-          SITEKEY_EPIC: 91e4137f-95af-4bc9-97af-cdcedce21c8c
+          SITEKEY_EPIC: 9e30723b-72c6-4928-96a1-9d26ae5ed6bd
         continue-on-error: true
         timeout-minutes: 20
         run: |
